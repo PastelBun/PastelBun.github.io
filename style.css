@@ -7,11 +7,6 @@
     border: 0;
 
 }
-/*add external source just in case in case*/
-@font-face {
-    font-family: 'Indie Flower';
-    src:url("img/indieFlower-Regular.ttf")
-}
 .big_img{
     display: block;
     max-width: 38rem;
@@ -23,16 +18,16 @@
 }
 body{
     font-family:"sans-serif";
-    background: darkgray;
-    color: white;
+    background: #efcfe3;
+    color: #efcfe3;
     font-size: 24px;
     margin: 0;
     text-align: center;
 }
 /*styling for navbar id*/
 #navbar{
-    background:black;
-    color:white;
+    background:#c247b4;
+    color:#191919;
     overflow:auto;
     text-align: left;
     position: sticky;
@@ -51,7 +46,7 @@ body{
 }
 /*styling for anchors in navbar id*/
 #navbar a{
-    color:white;
+    color:#efcfe3;
     font-size: 20px;
 }
 /*styling for unordered lists in navbar id*/
@@ -72,17 +67,17 @@ body{
 }
 /*styling for anchor links in hover in list items in unordered lists in navbar id and the current class*/
 #navbar ul li a:hover{
-    background:gray;
-    color:white;
+    background:#c247b4;
+    color:#efcfe3;
 }
 a{
-    color:white;
+    color:#efcfe3;
 }
 a:hover{
-    color:grey;
+    color:#c247b4;
 }
 footer{
-    background: black;
+    background: #191919;
 }
 #prof_intro{
     display: grid;
@@ -106,7 +101,7 @@ footer{
     height:40rem;
     padding-top:15px;
     padding-bottom:15px;
-    border: 6px solid black;
+    border: 6px solid #191919;
 }
 #work_exp{
     grid-column: 2/span 1;
@@ -116,7 +111,7 @@ footer{
     padding-bottom:15px;
     text-align: center;
     list-style-position: inside; 
-    border: 6px solid black;
+    border: 6px solid #191919;
 }
 #guests{
     grid-column: 3/span 1;
@@ -124,7 +119,7 @@ footer{
     height:40rem;
     padding-top:15px;
     padding-bottom:15px;
-    border: 6px solid black;
+    border: 6px solid #191919;
 }
 #self-education{
     text-align: center;
@@ -133,7 +128,7 @@ footer{
     justify-content: space-around;
     padding-top:15px;
     padding-bottom:15px;
-    border: 6px solid black;
+    border: 6px solid #191919;
     height:40rem;
 }
 #e-courses{
@@ -144,14 +139,14 @@ footer{
     padding-top:15px;
     padding-bottom:15px;
     text-align:center;
-    border: 6px solid black;
+    border: 6px solid #191919;
 }
 #e-courses ul{
     text-align: center;
     list-style-position: inside;
 }
 #e-courses ul li a:hover{
-    color: grey;
+    color: #c247b4;
 }
 .skills img{
     margin: auto;
@@ -161,14 +156,14 @@ footer{
     grid-row: 1/span 1;
     width: 100%;
     height: 40rem;
-    border: 6px solid black;
+    border: 6px solid #191919;
 }
 #skill_2{
     grid-column: 3/span 1;
     grid-row: 1/span 1;
     width: 100%;
     height: 40rem;
-    border: 6px solid black;
+    border: 6px solid #191919;
 
 }
 #skill_3{
@@ -176,21 +171,21 @@ footer{
     grid-row: 2/span 1;
     width: 100%;
     height: 40rem;    
-    border: 6px solid black;
+    border: 6px solid #191919;
 }
 #skill_4{
     grid-column: 2/span 1;
     grid-row: 2/span 1;
     width: 100%;
     height: 40rem;
-    border: 6px solid black;
+    border: 6px solid #191919;
 }
 #skill_5{
     grid-column: 3/span 1;
     grid-row: 2/span 1;
     width: 100%;
     height: 40rem;
-    border: 6px solid black;
+    border: 6px solid #191919;
 }
 #past_prj{
     width: 100%;
@@ -200,14 +195,14 @@ footer{
     grid-row: 1/span 1;
     max-width: 100%;
     height: auto;
-    border: 6px solid black;
+    border: 6px solid #191919;
 }
 #prj2{
     grid-column: 2/span 1;
     grid-row: 1/span 1;
     max-width: 100%;
     height: auto;
-    border: 6px solid black;
+    border: 6px solid #191919;
 }
 #prj2 h2{
     font-size:3rem;
@@ -217,7 +212,7 @@ footer{
     grid-row: 1/span 1;
     max-width: 100%;
     height: auto;
-    border: 6px solid black;
+    border: 6px solid #191919;
 }
 /*
 #prj1 img,#prj2 img,#prj3 img{
@@ -229,14 +224,14 @@ footer{
     grid-row: 1/span 1;
     width: 100%;
     padding:15px;
-    border: 6px solid black;
+    border: 6px solid #191919;
 }
 #self_intro{
     grid-column: 2/span 3;
     grid-row: 1/span 1;
     text-align: center;
     width: 100%;
-    border: 6px solid black;
+    border: 6px solid #191919;
     padding:15px;
 }
 #self_intro ul{
@@ -251,8 +246,8 @@ footer{
   z-index: 99;
   border: none;
   outline: none;
-  background-color: black;
-  color: white;
+  background-color: #191919;
+  color: #efcfe3;
   cursor: pointer;
   padding: 15px;
   border-radius: 10px;
@@ -260,10 +255,10 @@ footer{
 }
 
 #to_top:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #c247b4; /* Add a dark-#c247b4 background on hover */
 }
 .emp{
-    color: black;
+    color: #191919;
     font-weight: bold;
     font-size: 1.2em;
 }
@@ -277,17 +272,17 @@ footer{
     text-decoration:none;
 }
 i{
-    color: white;
+    color: #efcfe3;
 }
 i:hover{
-    color: grey;
+    color: #c247b4;
 }
 .verline{
-    border-left: 6px solid black;
+    border-left: 6px solid #191919;
     height: 500px;
 }
 .horline{
-    border-top: 6px solid black;
+    border-top: 6px solid #191919;
 }
 @media only screen and (max-width: 1800px) and (min-width: 700px){
     #education, #work_exp, #guests{

@@ -18,6 +18,7 @@ br{
 }
 #prof_intro{
     display: block;
+    max-width: 75%;
 }
 
 h1,h2,h3{
@@ -27,6 +28,7 @@ h1,h2,h3{
     overflow: hidden;
     background-color: #333;
     position: relative;
+    padding-bottom: 10vh;
 }
 #logo{
     text-align: left;
@@ -63,7 +65,7 @@ h1,h2,h3{
     color: white;
 }
 #skill_1 img, #skill_2 img, #skill_3 img, #skill_4 img, #skill_5 img {
-    width: 100vw;
+    width: 50vw;
     max-height: 100%;
     border: none;
 }
@@ -75,7 +77,7 @@ h1,h2,h3{
 }
 .grid-container{
     display: contents;
-    align-content: center;
+    align-content: space-evenly;
     object-fit: contain;
 }
 #hobbies{
